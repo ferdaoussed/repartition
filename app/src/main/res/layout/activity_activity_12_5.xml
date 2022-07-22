@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity12_5">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text=""
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/button12_5_1"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/textView2"
+        android:layout_marginTop="54dp"
+        android:text=" الصرف و التحويل: تصريف الفعل الصحيح"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="20sp"
+        android:background="@drawable/activity_2"
+        />
+
+    <Button
+        android:id="@+id/button12_5_2"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/textView2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="282dp"
+        android:background="@drawable/activity_2"
+        android:text=" التراكيب : نصب المضارع الصحيح و الجملة المؤولة"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button12_6_2"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="513dp"
+        android:background="@drawable/activity_2"
+        android:text=" الاملاء : همزتا الوصل والقطع"
+        android:textSize="20sp" />
+</RelativeLayout>

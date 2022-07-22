@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_14_3">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text=""
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/button14_3_1"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/textView2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="147dp"
+        android:background="@drawable/activity_2"
+        android:text=" الصرف و التحويل: تصريف الفعل المعتل والأجوف "
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button4_3_2"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="381dp"
+        android:background="@drawable/activity_2"
+        android:text=" التراكيب : جزم المضارع الصحيح والجملة الشرطية"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

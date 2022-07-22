@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="التوزيع السنوي"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity_14_6"></activity>
+        <activity android:name=".Activity_14_5" />
+        <activity android:name=".Activity_14_4" />
+        <activity android:name=".Activity_14_3" />
+        <activity android:name=".Activity_14_2" />
+        <activity android:name=".Activity_14_1" />
+        <activity android:name=".Activity_13_5" />
+        <activity android:name=".Activity_13_4" />
+        <activity android:name=".Activity_13_3" />
+        <activity android:name=".Activity_13_2" />
+        <activity android:name=".Activity_13_1" />
+        <activity android:name=".Activity_13" />
+        <activity android:name=".Activity12_7" />
+        <activity android:name=".Activity12_6" />
+        <activity android:name=".Activity12_5" />
+        <activity android:name=".Activity12_4" />
+        <activity android:name=".Activity12_3" />
+        <activity android:name=".Activity12_1" />
+        <activity android:name=".Activity12" />
+        <activity android:name=".FrUnites" />
+        <activity android:name=".ArUnites" />
+        <activity android:name=".ArMatieres" />
+        <activity android:name=".ChoixLangues" />
+        <activity android:name=".FrMatieres" />
+        <activity android:name=".StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
